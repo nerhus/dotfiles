@@ -21,8 +21,10 @@
     # 
     # for macOS:
     # * install the latest Xcode with Command Line Tools ($ xcode-select --install)
+    # * install Homebrew
     # * install CMake with Homebrew
+    # * install Rust with Rustup: https://www.rust-lang.org
     $ cd $HOME/.vim/bundle/YouCompleteMe
-    $ ./install.py --clang-completer
+    $ ./install.py --rust-completer --clang-completer
 
 
