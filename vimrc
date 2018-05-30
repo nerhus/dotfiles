@@ -6,9 +6,11 @@ call plug#begin('~/.vim/bundle')
 Plug 'valloric/YouCompleteMe'
 Plug 'rust-lang/rust.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
+set laststatus=2
 syntax on
 set hlsearch
 set showmatch
