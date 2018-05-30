@@ -1,0 +1,9 @@
+[user]
+	name = Oystein Lonning Nerhus
+	#email = oystein@nerhus.no
+[push]
+	default = simple
+[core]
+	editor = vim
+[pull]
+	rebase = true
