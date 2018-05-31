@@ -6,8 +6,7 @@
 # VIM setup
 
     # for macOS, ensure you have installed the latest version of MacVim, then:
-    $ cp MacVim.app/Contents/MacOS/Vim /usr/local/bin/mvim 
-    $ ln -s /usr/local/bin/mvim /usr/local/bin/vim
+    $ ln -s /Applications/MacVim.app/Contents/bin/mvim /usr/local/bin/vim
 
     # install vim-plug
     $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
