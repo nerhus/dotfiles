@@ -7,6 +7,7 @@ Plug 'valloric/YouCompleteMe'
 Plug 'rust-lang/rust.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/nerdtree'
+Plug 'rodjek/vim-puppet'
 call plug#end()
 
 set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
